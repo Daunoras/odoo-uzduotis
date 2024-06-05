@@ -1,6 +1,13 @@
-# -*- coding: utf-8 -*-
+from odoo import models, fields
 
-# from odoo import models, fields, api
+class Dokumentai(models.Model):
+    _name = 'dokumentai'
+    _description = 'Dokumentu informacija'
+
+    pavadinimas = fields.Char(required=True)
+    aprasymas = fields.Text()
+    imone = fields.Char()
+
 
 
 # class uzduotis(models.Model):
