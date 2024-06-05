@@ -28,7 +28,7 @@
                         <field name="palaikymas" widget="many2many_tags"/>
                     </group>
                 </sheet>
-            </form>
+             </form>
         </field>
     </record>
 
