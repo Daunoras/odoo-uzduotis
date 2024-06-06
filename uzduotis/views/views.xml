@@ -10,6 +10,7 @@
                 <field name="imone"/>
                 <field name="sukure"/>
                 <field name="palaikymas"/>
+                <field name="create_date" string="Sukūrimo data"/>
             </tree>
         </field>
     </record>
